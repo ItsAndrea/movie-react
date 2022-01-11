@@ -1,4 +1,4 @@
-import { MoviesGrid } from "./MoviesGrid";
+import { MoviesGrid } from "../MoviesGrid";
 
 export function App(){
     return(
