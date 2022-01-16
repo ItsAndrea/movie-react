@@ -3,6 +3,10 @@
     font-size: 1.5rem;
 }
 
+.movieCard:hover{
+    opacity: 0.9;
+}
+
 .movieImage { 
     border-radius: 10px;
     background-color: azure;

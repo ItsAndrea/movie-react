@@ -1,14 +1,28 @@
-import { MoviesGrid } from "../MoviesGrid";
+import { MoviesGrid } from "./MoviesGrid";
+import {
+    BrowserRouter as Router,
+    Routes,
+    Route,
+    Link
+} from "react-router-dom";
 
-export function App(){
-    return(
-        <div> 
+import { MovieDetails } from "../pages/MovieDetails";
+import { LandingPage } from "../pages/LandingPage";
+
+export function App() {
+    return (
+        <Router>
             <header>
-                <h1 className="title">Movies</h1>
+                <Link to="/"><h1 className="title">Movies</h1> </Link>
             </header>
             <main>
-                <MoviesGrid />
+                <Routes>
+                    <Route exact path="/movies/" element={ <MovieDetails /> }>      
+                    </Route>
+                    <Route path="/" element={ <LandingPage /> }>                        
+                    </Route>
+                </Routes>
             </main>
-        </div>
+        </Router>
     );
 }
