@@ -10,7 +10,7 @@ export function MovieDetails() {
                 src={imageUrl}
                 alt={movie.title}
             />
-            <div>
+            <div className={`${styles.col} ${styles.movieDetails}`}>
                 <p> <strong>Title:</strong> {movie.title}</p>
                 <p>
                     <strong>Genres: </strong>
