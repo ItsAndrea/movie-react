@@ -20,3 +20,4 @@ I used the UseEffect hook and wrote a function as an argument. This function is 
 * **Javascript** 
 * **CSS** 
 * **HTML**
+* **Git**
