@@ -10,3 +10,12 @@ Here we have a functional component called <code>MoviesGrid</code> mainly in cha
 <br>
 Also very important is the search route, which starts on line 19. At first I wanted to show only movies but I went a step ahead and implemented a search bar. 
 The page had an infinite scroll but users didn't have a search tool to give them what they wanted to see. 
+
+<br>
+
+# Technology
+
+* **React** 
+* **Javascript** 
+* **CSS** 
+* **HTML**
