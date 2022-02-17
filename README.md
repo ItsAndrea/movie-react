@@ -1,3 +1,8 @@
+<h1 align="center"> 💬Movie Website💬</h1>
+
+<h2 align="center"> Get phrases to distract you or share with others </h2>
+
+
 ![sample_code(1)](https://user-images.githubusercontent.com/85640313/154518681-2869352b-72ab-424d-8d91-9857471e6eb8.png)
 
 Let's break this code into parts to understand it. <br>
