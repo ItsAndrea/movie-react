@@ -1,10 +1,9 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { Spinner } from "../components/Spinner";
-import { useQuery } from "../hooks/useQuery";
 import { get } from "../utils/httpClient";
-import movie from "./movie.json";
 import styles from "./MovieDetails.module.css";
+import placeholder from "../utils/placeholder.jpg";
 
 export function MovieDetails() {
     const { movieId } = useParams();
@@ -23,7 +22,7 @@ export function MovieDetails() {
         return <Spinner/>;
     }
 
-    const imageUrl = "https://image.tmdb.org/t/p/w500" + movie.poster_path;
+    const imageUrl = movie.poster_path ? "https://image.tmdb.org/t/p/w300" + movie.poster_path : placeholder;
     return (
         <div className={styles.detailsContainer}>
             <img
