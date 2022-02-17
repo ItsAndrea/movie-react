@@ -1,7 +1,7 @@
-<h1 align="center"> 💬Movie Website💬</h1>
+<h1 align="center"> 🎬 Movie Website 🎬</h1>
 
-<h2 align="center"> Get phrases to distract you or share with others </h2>
-
+<h2 align="center"> Find all the information about your favorite movies </h2>
+<br>
 
 ![sample_code(1)](https://user-images.githubusercontent.com/85640313/154518681-2869352b-72ab-424d-8d91-9857471e6eb8.png)
 
