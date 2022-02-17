@@ -10,7 +10,8 @@ Here we have a functional component called <code>MoviesGrid</code> mainly in cha
 <br>
 Also very important is the search route, which starts on line 19. At first I wanted to show only movies but I went a step ahead and implemented a search bar. 
 The page had an infinite scroll but users didn't have a search tool to give them what they wanted to see. 
-
+<br>
+I used the UseEffect hook and wrote a function as an argument. This function is executed by default when the component is rendered for the first time, and then each time the component is updated. I also specified when it should be executed with the optional search and page parameters.
 <br>
 
 # Technology
